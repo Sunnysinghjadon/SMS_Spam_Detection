@@ -1,6 +1,5 @@
 
-# 📲 SMS Spam Detection System 🚫✉️  
-> **Automatically classify SMS messages as spam or not spam using machine learning!**  
+# 📲 SMS Spam Detection System 🚫✉️   
 
 ## 📝 Project Overview  
 The SMS Spam Detection project aims to automatically classify text messages as spam or ham (not spam) using various machine learning techniques. It involves preprocessing SMS data, transforming the text into numerical features, and training multiple models to predict whether a message is spam. This project can be used as a foundation for applications like spam filtering in emails and messaging services. 🛡️📧  
