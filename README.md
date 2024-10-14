@@ -31,7 +31,7 @@ Here's an example of how the model works:
 ---
 
 ## 📊 Dataset  
-The dataset used is the [SMS Spam Collection Dataset](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection), which consists of approximately 5,572 SMS messages labeled as "spam" or "ham." Each message is preprocessed to remove punctuation, convert to lowercase, and handle stopwords.
+The dataset used is the SMS Spam Collection Dataset, which consists of approximately 5,572 SMS messages labeled as "spam" or "ham." Each message is preprocessed to remove punctuation, convert to lowercase, and handle stopwords.
 
 | **Column**   | **Description**                      |  
 |--------------|--------------------------------------|  
@@ -70,12 +70,12 @@ The dataset used is the [SMS Spam Collection Dataset](https://archive.ics.uci.ed
 ## 📈 Model Performance  
 The project compares several models to identify the best-performing algorithm for spam detection:  
 
-| **Model**                     | **Accuracy** | **Precision** | **Recall** | **F1-Score** |  
-|-------------------------------|--------------|---------------|------------|--------------|  
-| **Naive Bayes**               | 97.09%       | 100%          | 95.0%      | 97.44%       |  
-| **Random Forest**             | 97.58%       | 98.29%        | 96.5%      | 97.38%       |  
-| **Support Vector Classifier** | 97.58%       | 97.48%        | 97.5%      | 97.48%       |  
-| **Logistic Regression**       | 95.84%       | 97.03%        | 92.5%      | 94.72%       |  
+| **Model**                     | **Accuracy** | **Precision** |
+|-------------------------------|--------------|---------------|
+| **Naive Bayes**               | 97.09%       | 100%          |
+| **Random Forest**             | 97.58%       | 98.29%        |
+| **Support Vector Classifier** | 97.58%       | 97.48%        | 
+| **Logistic Regression**       | 95.84%       | 97.03%        |
 
 ### Visualization  
 The notebook includes visualizations to help interpret the model's performance, such as confusion matrices and ROC curves. 📊🔍  
